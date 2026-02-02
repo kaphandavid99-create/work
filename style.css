@@ -2202,7 +2202,7 @@ margin-right: 20px;
 
 
 
-@media (max-width:360px) {
+@media (max-width:477px) {
     #header {
         padding: 10px 30px;
     }
@@ -2326,7 +2326,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin-right: 0px;
-    padding-right: 20px;
    
 }
 
@@ -2442,7 +2441,7 @@ grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 
 #mobile {
     position: relative;
-    right: -60px;
+    right: -50px;
 }
 
 #about-head div {
