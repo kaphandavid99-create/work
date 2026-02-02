@@ -1990,10 +1990,6 @@ hr {
     margin-bottom: 200px;
 }
 
-.gallery {
-    
-}
-
 .hero-text {
     display: flex;
     flex-wrap: wrap;
@@ -2297,7 +2293,6 @@ h1 {
     padding: 40px 20px;
     display: flex;
     flex-wrap: wrap;
-    position: ;
     margin-bottom: 20px;
 }
 
@@ -2525,5 +2520,5 @@ grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 
 }
 
-
+}
    
