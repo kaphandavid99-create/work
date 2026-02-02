@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>E-commerce website</title>
+    <script src="https://kit.fontawesome.com/1343494eca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section-p1">
+  <h2>Checkout</h2>
+
+  <div class="checkout-container">
+
+    <!-- CUSTOMER DETAILS -->
+    <form id="checkout-form">
+      <h3>Billing Details</h3>
+
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <input type="text" id="phone" placeholder="Phone Number" required>
+      <input type="text" id="address" placeholder="Delivery Address" required>
+      <input type="text" id="city" placeholder="City" required>
+
+      <button type="submit" class="normal">
+        Place Order
+      </button>
+    </form>
+
+    <!-- ORDER SUMMARY -->
+    <div class="order-summary">
+      <h3>Your Order</h3>
+      <div id="order-items"></div>
+
+      <hr>
+
+      <p>
+        <strong>Total:</strong>
+        <span id="order-total">$0.00</span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<script src="checkout.js"></script>
+</body>
+</html>
