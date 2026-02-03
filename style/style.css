@@ -27,6 +27,8 @@ body {
 .logo1 {
     width: 100px;
     margin-left: 70px;
+    position: relative;
+    left: 50;
 }
 
 .logo1 {
@@ -1334,7 +1336,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 .shopping-txt {
     position: absolute;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .shopping-txt h1 {
     font-size: 70px;
@@ -1342,6 +1347,8 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     top: -50px;
     right: -350px;
     top: -95px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cart-img {
@@ -1349,6 +1356,19 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     justify-content: space-between;
     align-items: center;
 
+}
+
+.pic-side {
+    border: 0px solid black;
+    margin-left: 15px;
+    box-shadow: 0 0 10px;
+    background-color: rgba(229, 153, 12, 0.11);
+    border-radius: 10px;
+    
+}
+
+.video video {
+    width: 10px;
 }
 
 .img1 {
@@ -1944,6 +1964,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     border-radius: 3792px;
 }
 
+
 .people div p {
     margin: 0;
     font-size: 13px;
@@ -2209,13 +2230,6 @@ hr {
         margin-right: auto;
     }
 
-    .logo {
-        position: absolute;
-        bottom: -30px;
-        left: -80px;
-
-    }
-
     #set-images {
         grid-template-columns: repeat(4, 1fr);
         gap: 3px;
@@ -2233,9 +2247,12 @@ hr {
 }
 
 #mobile {
+    position: relative;
     display:flex;
     align-items: center;
     padding-right: 30px;
+    left: 70px
+
 }
 
 #mobile i {
@@ -2519,14 +2536,7 @@ h1 {
     gap: 10px;
 }
 
-.copy {
-    width: 0%;
-    margin-left: 0px;
-    display: flex;
-    flex-direction: row;
-    margin-right: 0px;
-    padding-left: 0px;
-}
+
 
 .image-box {
 display: grid;
@@ -2536,6 +2546,7 @@ grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 
 .down-side {
     gap: 10px;
+    align-items: center;
 }
 
 
