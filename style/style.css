@@ -145,7 +145,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-left: 400px;
+    margin-left: 500px;
+
 
 }
 
@@ -154,6 +155,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0px;
+    padding: 0px;
+    margin-right: 0px;
 }
 
 .imgs {
@@ -321,6 +324,7 @@ body {
     padding-left: 70px;
     padding-right: 90px;
     background-color: #344256;
+    flex-wrap: wrap;
 }
 
 #news .news-image-box {
@@ -379,7 +383,7 @@ body {
 
 .up-side {
     display: flex;
-    width: 10px;
+    width: 5px;
     justify-content: space-between;
 }
 
@@ -2034,6 +2038,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 20px 20px;
 }
 #coupon {
   width: 50%;
@@ -2058,6 +2063,16 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     background-color: #088178;
     color: white;
     padding: 12px 20px;
+    border: none;
+    box-shadow: 0 0 2px;
+    border-radius: 3px;
+
+}
+
+#coupon button:hover,
+#subtotal button:hover {
+color:#344256;
+
 }
 #subtotal {
   width: 50%;
@@ -2251,7 +2266,7 @@ hr {
     display:flex;
     align-items: center;
     padding-right: 30px;
-    left: 70px
+    left: 60px
 
 }
 
@@ -2613,6 +2628,8 @@ grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     flex-direction: column;
    
 }
+
+
 
 .head-1 {
     display: flex;
