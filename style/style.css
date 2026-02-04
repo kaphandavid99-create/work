@@ -429,9 +429,17 @@ body {
 
 }
 
+.down-side h4 {
+    color: rgb(160, 95, 95);
+}
+
 .down-side div {
     display: flex;
     flex-direction: column;
+}
+
+.down-side a {
+    text-decoration: none;
 }
 
 .down-side div a {
@@ -1908,6 +1916,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .details {
     margin-left: 50px;
     margin-top: 20px;
+    background-color: #a6a7ab;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 200px;
 }
 
 .details p {
