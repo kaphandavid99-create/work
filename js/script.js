@@ -86,3 +86,40 @@ window.addEventListener("scroll", revealOnScroll);
 
 // Trigger once on load in case first section is visible
 window.addEventListener("load", revealOnScroll);
+
+
+function toggleLove(element) {
+  element.classList.toggle("loved");
+  element.textContent = element.classList.contains("loved") ? "♥" : "♡";
+}
+
+
+// Get liked products from localStorage
+function getLikedProducts() {
+  return JSON.parse(localStorage.getItem("likedProducts")) || [];
+}
+
+// Save liked products
+function saveLikedProducts(products) {
+  localStorage.setItem("likedProducts", JSON.stringify(products));
+}
+
+// Toggle love
+function toggleLove(element) {
+  const productId = element.dataset.id;
+  let likedProducts = getLikedProducts();
+
+  if (likedProducts.includes(productId)) {
+    // Unlike
+    likedProducts = likedProducts.filter(id => id !== productId);
+    element.classList.remove("loved");
+    element.textContent = "♡";
+  } else {
+    // Like
+    likedProducts.push(productId);
+    element.classList.add("loved");
+    element.textContent = "♥";
+  }
+
+  saveLikedProducts(likedProducts);
+}

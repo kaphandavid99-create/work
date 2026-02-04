@@ -8,7 +8,7 @@
 </head>
 <body>
     <section id="header">
-   <div class="logo"> 
+        <div class="logo"> 
             <a href="#"><img src="img/dave.png" class="logo1" alt="logo"></a>
         </div>
 
@@ -25,45 +25,46 @@
         </div>
         <div id="mobile">
             <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-             <i id="bar" class="fa-solid fa-bars"></i>
+            <i id="bar" class="fas fa-outdent"></i>
         
         </div>
     </section>
 
     <section id="prodetails"
-     data-id="101"
+    data-id="101"
     data-name="Men's Fashion T Shirt"
     data-price="139">
         <div class="single-pro-img">
-             <img src="img/download (13).jpeg" width="100%" id="MainImg" alt="">
+             <img id="MainImg" src="img/shoe4.jpg" width="100%" alt="">
              <div class="small-img-group">
                 <div class="small-img-col">
-                    <img src="img/download (13).jpeg" width="100%" class="small-img" alt="">
+                    <img src="img/shoe4.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="img/download (35).jpeg" width="100%" class="small-img" alt="">
+                    <img src="img/clt5.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="img/download (34).jpeg" width="100%" class="small-img" alt="">
+                    <img src="img/clt6.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="img/download (39).jpeg" width="100%" class="small-img" alt="">
+                    <img src="img/clt3.jpg" width="100%" class="small-img" alt="">
                 </div>
              </div>
             </div>
        
         <div class="single-pro-details">
             <h4 id="product-name">Men's Fashion T Shirt</h4>
-            <h2 id="product-price" data-price="49.99">$49.99</h2>
+            <h2 id="product-price" data-price="139">$139.00</h2>
             <select id="size">
                 <option value="">Select size</option>
                 <option value="S">38</option>
                 <option value="M">39</option>
                 <option value="S">40</option>
                 <option value="L">41</option>
-                <option value="LL">42</option>
+                <option value="L">42</option>
+
             </select>
-             <input type="number" id="quantity" value="1" min="1">
+            <input type="number" id="quantity" value="1" min="1">
             <button class="normal" id="addToCart">Add To Cart</button>
             <h4>Product Details</h4>
             <span>Our designs are inspired by global fashion culture while staying rooted in practicality and versatility. Whether you’re dressing for work, a casual outing, a special event, or simply want to upgrade your everyday look, our collections offer the perfect balance between comfort, durability, and sophistication.</span>
@@ -74,10 +75,9 @@
     <section id="product1">
         <h2>Featured Products</h2>
         <p>Summer Collection New Modern Design</p>
-    </section>
-     
-    
-    <section id="products-1">
+        
+
+         <section id="products-1">
         <div class="product-card">
   <div class="image-box">
     <img src="img/SHOES NEW ARRIVALS - man _ 10.jpeg" alt="Premium Shirt">
@@ -85,7 +85,7 @@
   </div>
 
   <div class="product-info">
-    <h3>Premium Cotton Shirt</h3>
+    <h3>classic shoes</h3>
     <p class="price">$49.99</p>
   </div>
 </div>
@@ -97,7 +97,7 @@
   </div>
 
   <div class="product-info">
-    <h3>Premium Cotton Shirt</h3>
+    <h3>classic shoes</h3>
     <p class="price">$49.99</p>
   </div>
 </div>
@@ -109,7 +109,7 @@
   </div>
 
   <div class="product-info">
-    <h3>Premium Cotton Shirt</h3>
+    <h3>classic shoes</h3>
     <p class="price">$49.99</p>
   </div>
 </div>
@@ -121,33 +121,25 @@
   </div>
 
   <div class="product-info">
-    <h3>Premium Cotton Shirt</h3>
+    <h3>classic shoes</h3>
     <p class="price">$49.99</p>
   </div>
 </div>
     </section>
-        
 
-        
- <section id="news">
-        <div class="news-1">
-        <div>
-            <h2> Stay Updated with the<br> Latest Deals</h2>
-            <p>Join our mailing list to receive exclusive offers,new arrivals, and style tips<br> straight to your inbox!</p>
-        </div>
-        <div class="subscribe-box">
-            <input type="email" placeholder="Enter your email">
-            <button>Subscribe</button>
-        </div>
-        </div>
 
-        <div class="news-image-box">
-            <img src="img/bdjd.png" alt="image">
-        </div>
- </section>
     
-   
-    <footer id="l-footer">
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">SignUp</button>
+        </div>
+    </section>
+<footer id="l-footer">
     <div class="up-side">
    <div class="logo">
         <img src="img/dave.png" class="logo1" alt="logo">
@@ -204,7 +196,10 @@
    
    </footer>
 
-   <script>
+
+    
+
+    <script>
         var MainImg = document.getElementById("MainImg");
         var smallimg = document.getElementsByClassName("small-img");
 
@@ -222,7 +217,7 @@
         }
     </script>
 
-      <script>
+    <script>
   const addToCartBtn = document.getElementById("addToCart");
 
   addToCartBtn.addEventListener("click", () => {
@@ -250,6 +245,6 @@
   });
 </script>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
